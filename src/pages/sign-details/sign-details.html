@@ -1,0 +1,44 @@
+<!--
+  Generated template for the SignDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>sign-details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-card class="daily">
+        <ion-card-header>
+          <strong>Today {{sunSign}} Horoscope</strong>{{today}}
+        </ion-card-header>
+        <ion-card-content class="dailyDesc">
+           {{todayDesc}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card class="week">
+          <ion-card-header>
+            <strong>Weekly {{sunSign}} Horoscope</strong>{{week}}
+          </ion-card-header>
+          <ion-card-content class="weekDesc">
+             {{weekDesc}}
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card class="month">
+            <ion-card-header>
+              <strong>Monthly {{sunSign}} Horoscope</strong>{{month}}
+            </ion-card-header>
+            <ion-card-content class="monthDesc">
+                {{monthDesc}} 
+            </ion-card-content>
+          </ion-card>
+
+</ion-content>
