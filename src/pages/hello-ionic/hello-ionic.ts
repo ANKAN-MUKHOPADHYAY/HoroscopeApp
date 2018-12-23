@@ -16,4 +16,7 @@ export class HelloIonicPage {
     this.navCtrl.push('SignDetailsPage');
 
   }
+  gotoLogin(){
+    this.navCtrl.push('LoginPage');
+  }
 }

@@ -7,16 +7,15 @@
   </ion-header>
 
   <ion-content>
-      <ion-avatar>
-          <img class="userImg" src="https://plus.google.com/_/focus/photos/public/AIbEiAIAAABDCMulyrWqktbZcSILdmNhcmRfcGhvdG8qKDFiZTdiOWExYzQ1ZDFlNWEyYWRhNjUwNTc0NmZlZjc1NTQ3ODNiMDMwAedWwRTtNqmy-k8ljR7ZvGfhcr9q?sz=128">
-        </ion-avatar>
+    <ion-avatar>
+      <img class="userImg" src="https://plus.google.com/_/focus/photos/public/AIbEiAIAAABDCMulyrWqktbZcSILdmNhcmRfcGhvdG8qKDFiZTdiOWExYzQ1ZDFlNWEyYWRhNjUwNTc0NmZlZjc1NTQ3ODNiMDMwAedWwRTtNqmy-k8ljR7ZvGfhcr9q?sz=128">
+    </ion-avatar>
     <ion-list>
       <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>
     </ion-list>
   </ion-content>
-
 </ion-menu>
 
 <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

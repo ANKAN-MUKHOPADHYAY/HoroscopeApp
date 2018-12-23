@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Daily Horoscope</ion-title>
+    <ion-buttons end>
+      <button ion-button color="secondary" (click)="gotoLogin()" outline>Login</button>
+      <button ion-button color="primary" outline>Sign Up</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="bgLogin">
+  <ion-card class="loginCard">
+    <div class="logoPos">
+      <img class="logoImg" src="../../assets/imgs/loginPageLogo.png" />
+    </div>
+    <ion-card-content>
+      <ion-list>
+
+        <ion-item class="loginBackground">
+          <ion-label class="labelColor" floating>Username</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item class="loginBackground">
+          <ion-label class="labelColor" floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+        <ion-item class="center loginBackground">
+            <button class="fontBtn" ion-button block>Login</button>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,45 @@
+page-login {
+    .bgLogin{
+        background-image: url('https://www.adpselect.com/login/images/backgrounds/adp-bg-background01-opt.jpg');
+        background-size: 100% 100%;
+    }
+    .logoImg{
+        width: 30%;
+        display: initial;
+    }
+    .logoPos{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .loginCard{
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10%;
+        background: rgba(255, 255, 255, 0.28);
+    }
+    .loginBackground{
+        background-color: transparent !important;
+    }
+    .labelColor{
+        color: rgba(37, 35, 35, 0.64) !important;
+    }
+    .list-md .item-input{
+        border-bottom: 1px solid lightseagreen !important;
+    }
+    ion-list{
+        padding: 2.5em;
+    }
+    .item-md{
+        padding-left: 0px;
+    }
+    .center{
+        text-align: center;
+    }
+    .center > .item-inner{
+        padding-right: 0px !important;
+    }
+    .center > .item-inner > .input-wrapper > ion-label{
+        margin-right: 0px !important;
+    }
+}
