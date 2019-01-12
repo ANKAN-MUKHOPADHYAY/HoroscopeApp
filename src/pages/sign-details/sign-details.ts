@@ -4,13 +4,6 @@ import{ HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 
 
-/**
- * Generated class for the SignDetailsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-sign-details',
